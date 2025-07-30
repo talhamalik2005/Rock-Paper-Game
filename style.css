@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: url("background.jpg");
+}
+
+
+h1
+{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+#rock{
+    background-color: rgb(132, 160, 245);
+}
+
+#paper{
+    background-color: rgb(245, 168, 132);
+}
+#scissor{
+    background-color: rgb(141, 245, 132);
+}
+
+ .choice
+{
+    height:120px;
+    width: 120px;
+    padding: 2rem;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
+.choice:hover{
+    box-shadow: 3px 3px 7px black;
+    transition: .1s linear .1s;
+    border: 2px solid black;
+    cursor:pointer;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover; 
+}
+.main{
+ display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+
+    /* cursor: pointer; */
+    padding: 1rem;
+    margin: auto;
+}
+div .choice{
+    margin: auto;
+} 
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.score-board .score{
+    margin: auto;
+    padding: 1rem;
+        font-size: 1.5rem;
+
+}
+
+.user{
+    color: green;
+    font-weight: bold;
+}
+
+.comp{
+    color: red;
+     font-weight: bold;
+}
+
+.msg-container{
+    background-color: black;
+    padding: .5rem;
+}
+
+.msg-container > p{
+    color: white;
+    font-weight: lighter;
+
+}
